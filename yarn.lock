@@ -5264,7 +5264,7 @@ ember-cli-htmlbars-inline-precompile@^2.1.0:
     heimdalljs-logger "^0.1.9"
     silent-error "^1.1.0"
 
-ember-cli-htmlbars@5.7.1, ember-cli-htmlbars@^5.7.1:
+ember-cli-htmlbars@5.7.1, ember-cli-htmlbars@^5.2.0, ember-cli-htmlbars@^5.7.1:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-5.7.1.tgz#eb5b88c7d9083bc27665fb5447a9b7503b32ce4f"
   integrity sha512-9laCgL4tSy48orNoQgQKEHp93MaqAs9ZOl7or5q+8iyGGJHW6sVXIYrVv5/5O9HfV6Ts8/pW1rSoaeKyLUE+oA==
@@ -5622,13 +5622,14 @@ ember-fetch@8.1.1:
     node-fetch "^2.6.1"
     whatwg-fetch "^3.6.2"
 
-ember-get-config@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/ember-get-config/-/ember-get-config-0.3.0.tgz#a73a1a87b48d9dde4c66a0e52ed5260b8a48cfbd"
-  integrity sha512-0e2pKzwW5lBZ4oJnvu9qHOht4sP1MWz/m3hyz8kpSoMdrlZVf62LDKZ6qfKgy8drcv5YhCMYE6QV7MhnqlrzEQ==
+ember-get-config@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/ember-get-config/-/ember-get-config-0.4.0.tgz#8046835892d6e05620d291b523691ead3554a1a9"
+  integrity sha512-VgDg3n51a8VoqDOoKXWwB/YHqb702OsmH862HPaJjp0Yht7wMEH1DzV0wcMqQJ/3BB2GTTcLghUoghyljYswcg==
   dependencies:
     broccoli-file-creator "^1.1.1"
-    ember-cli-babel "^7.0.0"
+    ember-cli-babel "^7.21.0"
+    ember-cli-htmlbars "^5.2.0"
 
 ember-inflector@^4.0.1:
   version "4.0.2"
